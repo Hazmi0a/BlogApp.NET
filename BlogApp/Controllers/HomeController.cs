@@ -98,12 +98,6 @@ namespace BlogApp.Controllers
             }
 #endregion
 
-            foreach (Article item in allArticles)
-            {
-                Console.WriteLine(item);
-            }
-
-
 
             return View();
         }

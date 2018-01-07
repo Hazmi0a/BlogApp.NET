@@ -39,7 +39,7 @@ namespace BlogApp.Models
 
         // Overridding ToString
         public override string ToString() {
-            return "Title: " + this.title + "\nContent: " + this.content;
+            return "Title: " + this.title + "\nContent: " + this.content + "\nImage URL: " + this.image_url;
         }
 
     }

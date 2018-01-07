@@ -11,13 +11,13 @@ var allArticles = realm.All<Article>();
 @foreach (Article article in allArticles)
 {
     
-        <div class="col s12 m7 l4">
+        <div class="col s12 m6 l4">
           <div class="card large">
             <div class="card-image" >
               <img src= @(article.image_url)>
             </div>
             <div class="card-title"> 
-                <h5 id="title"> @article.title </h5>
+                <h5 id="title" > @article.title </h5>
             </div>
             <div class="card-content">
               <p> @article.content </p>

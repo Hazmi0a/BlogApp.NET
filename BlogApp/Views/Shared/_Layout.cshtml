@@ -85,6 +85,7 @@
         <script src="~/js/site.js" asp-append-version="true"></script>-->
 
         <script src="~/lib/materialize/dist/js/materialize.js" ></script>
+        <script type="text/javascript" src="~/js/functions.js"> </script> 
     </environment>
     <environment names="Staging,Production">
         <script src="https://ajax.aspnetcdn.com/ajax/jquery/jquery-2.2.0.min.js"
@@ -102,11 +103,7 @@
         <script src="~/js/site.min.js" asp-append-version="true"></script>-->
 
         <script type="text/javascript" src="~/lib/materialize/dist/js/materialize.min.js" ></script>
-        <script type="text/javascript"> 
-            $(document).ready(function(){
-                $(".button-collapse").sideNav();
-              });
-        </script> 
+
     </environment>
 
     @RenderSection("Scripts", required: false)

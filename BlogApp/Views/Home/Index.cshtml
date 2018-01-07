@@ -12,12 +12,12 @@ var allArticles = realm.All<Article>();
 {
     
         <div class="col s12 m7 l4">
-          <div class="card">
-            <div class="card-image">
+          <div class="card large">
+            <div class="card-image" >
               <img src= @(article.image_url)>
             </div>
             <div class="card-title"> 
-                <p> @article.title </p>
+                <h5 id="title"> @article.title </h5>
             </div>
             <div class="card-content">
               <p> @article.content </p>
